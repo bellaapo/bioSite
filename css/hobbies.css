@@ -11,6 +11,19 @@ body {
     background-color: #001A0C; /* Dark Green */
 }
 
+#navbar a {
+    float: left;
+    display: block;
+    color: white; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #225135; /* Brunswick Green */
+}
+
 /* Fixed position for heading */
 header h1 {
     position: fixed;
