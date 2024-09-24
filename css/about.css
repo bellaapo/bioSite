@@ -15,7 +15,7 @@ body {
 #navbar a {
     float: left;
     display: block;
-    color: white; 
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -39,21 +39,21 @@ header {
 /* Style the header text */
 header h1 {
     font-size: 3em;
-    color: #225135;
+    color: #225135; /* Set the text color to brunswick green */
     margin-bottom: 10px; /* Shrink the gap below the title */
 }
 
 /* Style the image */
 header img {
-    max-width: 700px;
-    margin-bottom: 20px; /* Reduce space between image and rest of the content */
+    max-width: 700px; 
+    margin-bottom: 20px; /* Reduce space between image and the rest of the content */
 }
 
 /* Center the main section content */
 main {
     display: flex;
     justify-content: center;
-    margin-top: 20px; /* Add small gap above the main content */
+    margin-top: 20px; /* Add a small gap above the main content */
 }
 
 /* Style the text section */
@@ -73,6 +73,9 @@ footer {
 /* Style the footer link */
 footer a {
     text-decoration: none;
+    color: #225135;
+    font-weight: bold;
+}
     color: #225135;
     font-weight: bold;
 }
