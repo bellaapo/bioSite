@@ -1,55 +1,32 @@
-/* Set the background color */
-body {
-    background-color: #CFD1d1;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-/* Styles for navbar */
-#navbar {
-    overflow: hidden;
-    background-color: #001A0C; /* Dark Green */
-}
-
-#navbar a {
-    float: left;
-    display: block;
-    color: white; 
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-#navbar a:hover {
-    color: #225135; /* Brunswick Green */
-}
-
 /* Center the header content */
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: auto;
     text-align: center;
+    padding: 20px 0; /* Add some padding */
+    height: auto; /* Let the height be auto to fit the content */
 }
 
 /* Style the header text */
 header h1 {
     font-size: 3em;
-    color: #225135; /* Set the text color to brunswick green */
+    color: #225135;
+    margin-bottom: 10px; /* Shrink the gap below the title */
 }
 
 /* Style the image */
 header img {
-    max-width: 700px; 
+    max-width: 700px;
+    margin-bottom: 20px; /* Reduce space between image and rest of the content */
 }
 
 /* Center the main section content */
 main {
     display: flex;
     justify-content: center;
+    margin-top: 20px; /* Add small gap above the main content */
 }
 
 /* Style the text section */
@@ -57,17 +34,5 @@ section {
     max-width: 800px;
     text-align: center;
     line-height: 1.6;
-}
-
-/* Style the footer */
-footer {
-    text-align: right;
-    margin: 20px 0;
-}
-
-/* Style the footer link */
-footer a {
-    text-decoration: none;
-    color: #225135;
-    font-weight: bold;
+    padding: 0 20px; /* Add padding to prevent text from touching the edges */
 }
