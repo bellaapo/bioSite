@@ -68,6 +68,7 @@ section {
 footer {
     text-align: right;
     margin: 20px 0;
+    right: 20px;
 }
 
 /* Style the footer link */
