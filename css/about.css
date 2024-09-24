@@ -6,6 +6,12 @@ body {
     padding: 0;
 }
 
+/* Styles for navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #001A0C; /* Dark Green */
+}
+
 /* Center the header content */
 header {
     display: flex;
