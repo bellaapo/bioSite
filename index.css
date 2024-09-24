@@ -56,7 +56,7 @@ body {
 
 h1 {
     position: relative;
-    left: 40px; /* Push the heading slightly to the right */
+    left: 20px; /* Push the heading slightly to the right */
     color: #225135;
     margin-top: 50px; /* Increase the gap between the top image and the heading */
 }
@@ -65,7 +65,8 @@ h1 {
 .goals-section {
     display: flex;
     justify-content: space-around;
-    margin-top: 60px; /* Increase space between image and the section */
+    margin-top: 20px; 
+    
 }
 
 .goal {
@@ -74,10 +75,8 @@ h1 {
 }
 
 .goal img {
-    width: 100%; 
-    max-width: 400px;
-    height: auto;
-    object-fit: cover; /* Ensures the image fits without stretching it */
+    max-width: 100%; 
+    height: 400px; /* Maintain aspect ratio */
 }
 
 .goal p {
@@ -89,4 +88,49 @@ footer a {
     text-decoration: none;
     color: #225135;
     font-weight: bold;
-}
+}    <meta charset="UTF-8">
+
+I need help fixing the aspect ratio on the images
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayce's BioSite</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<div id="navbar">
+    <a href="index.html">Home</a>
+    <a href="pages/about.html">About</a>
+    <a href="pages/hobbies.html">Hobbies</a>
+</div>
+    <header>
+        <div class="centered-content">
+            <div class="text-image-container">
+                <div class="text-left">R A Y C E</div>
+                <img src="images/woods.png" alt="Picture of Rayce walking in the woods, with a backpack on" class="center-image">
+                <div class="text-right">A P O</div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1>Goals and Accomplishments</h1>
+            <div class="goals-section">
+                <div class="goal">
+                    <img src="images/bean.png" alt="Rayce with his dog Bean.">
+                    <p>Rayce has grown up with dogs and cannot imagine his life without them. They play an important role in his life with their companionship. One of Rayce's favorite memories is playing with Bean when he was a puppy.</p>
+                </div>
+                <div class="goal">
+                    <img src="images/family.png" alt="Rayce with his sisters Jenna, Rayna, and Bella.">
+                    <p>Rayce cares a lot about his family. Pictured is 3/4 of his siblings, Jenna, Rayna, and Bella.</p>
+                </div>
+                <div class="goal">
+                    <img src="images/accounting.png" alt="A person doing paperwork with a calculator.">
+                    <p>Rayce's goal after college is to become an accountant. He plans to achieve this goal by staying disciplined in his studies and holding himself accountable to stay on track.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
