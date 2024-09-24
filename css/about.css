@@ -31,7 +31,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Make header take up full viewport height */
+    height: auto;
     text-align: center;
 }
 
