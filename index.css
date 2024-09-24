@@ -56,7 +56,7 @@ body {
 
 h1 {
     position: relative;
-    left: 20px; /* Push the heading slightly to the right */
+    left: 40px; /* Push the heading slightly to the right */
     color: #225135;
     margin-top: 50px; /* Increase the gap between the top image and the heading */
 }
@@ -65,11 +65,11 @@ h1 {
 .goals-section {
     display: flex;
     justify-content: space-around;
-    margin-top: 40px; /* Increase space between image and the section */
+    margin-top: 60px; /* Increase space between image and the section */
 }
 
 .goal {
-    margin: 10px; /* Space around each item */
+    margin: 20px; /* Space around each item */
     text-align: center;
 }
 
