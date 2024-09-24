@@ -5,6 +5,12 @@ body {
     padding: 0;
 }
 
+/* Styles for navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #001A0C; /* Dark Green */
+}
+
 /* Fixed position for heading */
 header h1 {
     position: fixed;
