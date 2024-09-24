@@ -5,7 +5,6 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 20px 0; /* Add some padding */
     height: auto; /* Let the height be auto to fit the content */
 }
 
