@@ -63,20 +63,3 @@ section {
     line-height: 1.6;
     padding: 0 20px; /* Add padding to prevent text from touching the edges */
 }
-
-/* Style the footer */
-footer {
-    text-align: right;
-    margin: 20px 0;
-    right: 20px;
-}
-
-/* Style the footer link */
-footer a {
-    text-decoration: none;
-    color: #225135;
-    font-weight: bold;
-}
-    color: #225135;
-    font-weight: bold;
-}
