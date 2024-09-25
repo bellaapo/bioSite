@@ -10,6 +10,8 @@ body {
 #navbar {
     overflow: hidden;
     background-color: #001A0C; /* Dark Green */
+    position: sticky; /* Make navbar stick to top */
+    top: 0; /* Position at the top */
 }
 
 #navbar a {
