@@ -19,22 +19,23 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 #navbar a:hover {
     color: #225135; /* Brunswick Green */
 }
+
 /* Fixed position for heading */
 header h1 {
-    position: fixed;
-    top: 10px;
-    left: 40px;
     font-size: 2.5em;
     color: #225135;
+    text-align: center; /* Centering the heading */
+    margin-top: 40px; /* Adjusting space above heading */
 }
 
 /* Introduction text above images */
 .intro {
     text-align: center;
-    margin: 100px auto 40px auto;
+    margin: 120px auto 40px auto; /* Push content down below navbar */
     max-width: 800px;
     padding: 0 20px;
 }
