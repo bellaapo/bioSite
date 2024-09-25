@@ -9,12 +9,16 @@ body {
 #navbar {
     overflow: hidden;
     background-color: #001A0C; /* Dark Green */
+    position: sticky; /* Sticks navbar to the top */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures navbar is on top of content */
 }
 
 #navbar a {
     float: left;
     display: block;
-    color: white; 
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -24,21 +28,26 @@ body {
     color: #225135; /* Brunswick Green */
 }
 
+/* Adjusting margin for header */
+header {
+    padding-top: 60px; /* Adds padding to ensure header text doesn't overlap with navbar */
+    text-align: center;
+}
+
 header h1 {
-    left: 40px;
     font-size: 2.5em;
     color: #225135;
 }
 
-/* Introduction text above images */
+/* Introduction text above the grid */
 .intro {
     text-align: center;
-    margin: 100px auto 40px auto;
+    margin: 50px auto 40px auto; /* Adjusted margin */
     max-width: 800px;
     padding: 0 20px;
 }
 
-/* Grid layout for images and their descriptions */
+/* Grid layout for hobbies section */
 .hobbies-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -61,4 +70,11 @@ header h1 {
 .hobby-caption {
     margin-top: 10px;
     font-size: 1em;
+}
+
+/* Style the footer link */
+footer a {
+    text-decoration: none;
+    color: #225135;
+    font-weight: bold;
 }
