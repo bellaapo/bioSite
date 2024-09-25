@@ -24,18 +24,18 @@ body {
     color: #225135; /* Brunswick Green */
 }
 
-/* Fixed position for heading */
+/* Header H1 styling */
 header h1 {
     font-size: 2.5em;
     color: #225135;
-    text-align: center; /* Centering the heading */
-    margin-top: 40px; /* Adjusting space above heading */
+    text-align: center;
+    margin: 20px 0; /* Adds margin to space the header from the navbar */
 }
 
-/* Introduction text above images */
+/* Introduction text below the navbar */
 .intro {
     text-align: center;
-    margin: 120px auto 40px auto; /* Push content down below navbar */
+    margin: 60px auto 40px auto; /* Adds margin to push content below the navbar */
     max-width: 800px;
     padding: 0 20px;
 }
